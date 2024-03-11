@@ -61,7 +61,11 @@ Os passos que tivq que seguir para utilizar esta ferramenta foram os seguintes:
 
 ## LAB 1 - Introdução
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+A detecção de rostos é uma das capacidades mais fascinantes do Azure Vision Studio.
+
+Este serviço utiliza algoritmos de aprendizado de máquina para identificar e localizar rostos humanos em uma imagem.
+
+É uma ferramenta poderosa com aplicações variadas, desde segurança até mídias sociais.
 
 <br>
 
@@ -69,24 +73,49 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 <br>
 
-## LAB 2 - Introdução
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+## LAB 1 - Conclusão
 
 <br>
+
+## LAB 2 - Introdução
+
+A extração de texto de imagens, também conhecida como OCR (Reconhecimento Óptico de Caracteres), é outro serviço notável do Azure Vision Studio.
+
+Ele permite que os usuários convertam texto não estruturado em imagens em texto estruturado que pode ser editado, pesquisado e armazenado de maneira mais eficiente.
+
+<br>
+
+---
 
 ## LAB 2 - OCR no Azure Vision Studio
 
 <br>
 
+## LAB 2 - Conclusão
+
+A capacidade do Azure Vision Studio de extrair texto de imagens é uma ferramenta valiosa para a transformação digital, permitindo que as empresas automatizem processos, melhorem a eficiência e extraiam valor de dados não estruturados.
+
+<br>
+
+---
+
 ## LAB 3 - Introdução
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Adicionar legendas a imagens e extrair marcas comuns são duas funcionalidades que demonstram a versatilidade do Azure Vision Studio.
+
+O serviço de legendas gera descrições precisas e significativas de imagens, enquanto a extração de marcas identifica logotipos, produtos e outros elementos notáveis.
 
 <br>
 
 ## LAB 3 - Análise de Imagens no Azure Vision Studio
 
+<br>
+
+## LAB 3 - Conclusão
+
+A capacidade do Azure Vision Studio de adicionar legendas e extrair marcas de imagens abre novas possibilidades para a análise de conteúdo visual.
+
+Estes serviços podem ser utilizados para melhorar a acessibilidade, realizar análises de marca e muito mais.
 
 
 
