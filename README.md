@@ -4,6 +4,7 @@
 
 ![Static Badge](https://img.shields.io/badge/Inteligência_Artificial_(IA)-blue)
 ![Static Badge](https://img.shields.io/badge/IA_Generativa-blue)
+![Static Badge](https://img.shields.io/badge/IA_Visão_Computacional-blue)
 ![Static Badge](https://img.shields.io/badge/IA_Face_Detect-blue)
 ![Static Badge](https://img.shields.io/badge/IA_OCR-blue)
 ![Static Badge](https://img.shields.io/badge/IA_Analysis_Image-blue)
@@ -26,7 +27,7 @@
 - [LAB 2 - Introdução](#LAB-2---Introdução)
 - [LAB 2 - OCR no Azure Vision Studio](#LAB-2---OCR-no-Azure-Vision-Studio)
 - [LAB 2 - Conclusão](#LAB-2---Conclusão)
-- [LAB 3 - Introdução](#LAB3---Introdução)
+- [LAB 3 - Introdução](#LAB-3---Introdução)
 - [LAB 3 - Análise de Imagens no Azure Vision Studio](#LAB-3---Análise-de-Imagens-no-Azure-Vision-Studio)
 - [LAB 3 - Conclusão](#LAB-3---Conclusão)
 - [Limpando o ambiente](#Limpando-o-ambiente)
