@@ -1,4 +1,4 @@
-# AI-900: Reconhecimento Facial e Transformação de Imagens em Dados no Azure ML
+# AI-900: Reconhecimento Facial, OCR e Análise de Imagens com Visual Studio no Azure AI
 
 ![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(11/Mar/2024)-green)
 
@@ -41,9 +41,9 @@ Os alunos deste bootcamp tem, como principal objetivo, se prepararem para o exam
 
 Este desafio é o de número 3 do bootcamp e consiste na execução prática de 3 exercícios, relacionados aos seguintes temas:
 
-- [LAB 1: Deteção de Rostos no Azure Vision Studio](http://aka.ms/ai900-face): XXXXXXX
-- [LAB 2: OCR no Azure Vision Studio](http://aka.ms/ai900-ocr): XXXXXXXX
-- [LAB 3: Análise de Imagens no Azure Vision Studio](http://aka.ms/ai900-image-analysis): XXXXXXXX
+- [LAB 1: Deteção de Rostos no Azure Vision Studio](http://aka.ms/ai900-face): explorar o reconhecimento facial em imagens
+- [LAB 2: OCR no Azure Vision Studio](http://aka.ms/ai900-ocr): explorar a extração de textos em imagens
+- [LAB 3: Análise de Imagens no Azure Vision Studio](http://aka.ms/ai900-image-analysis): explorar a legendagem e extração de *tags* em imagens
 
 <br>
 
@@ -114,19 +114,19 @@ Este serviço utiliza algoritmos de aprendizado de máquina para identificar e l
 
 3) Este serviço já vem com algumas amostras de imagens. Porém, submeti uma nova foto:
 
-   Nesta imagem, foram detectados 2 atributos de rostos. Para cada rosto identificado, é gerada uma marcação na imagem. Ao passar o mouse sobre cada marcação, ela fica amarela e sinaliza os atributos referentes no quadro ao lado, chamado de ***Detected attributes***:
+   > Nesta imagem, foram detectados 2 atributos de rostos. Para cada rosto identificado, é gerada uma marcação na imagem. Ao passar o mouse sobre cada marcação, ela fica amarela e sinaliza os atributos referentes no quadro ao lado, chamado de ***Detected attributes***:
 
    > ![alt text](readmeFiles/images/007.png)
 
 4) É possível visualizar o detalhe dos atributos detectados, clicando-se ***Json***:
 
-   Percebi que, para identificar um rosto, o modelo procurou por atributos associados, como olhos, sobrancelhas, boca, etc. Para cada subatributo, digamos assim, são marcadas as posições (X, Y) na foto, gerando pequenos pontos brancos, que facilitam a identificação
+   > Percebi que, para identificar um rosto, o modelo procurou por atributos associados, como olhos, sobrancelhas, boca, etc. Para cada subatributo, digamos assim, são marcadas as posições (X, Y) na foto, gerando pequenos pontos brancos, que facilitam a identificação
 
    > ![alt text](readmeFiles/images/008.png)
 
 5) Fiz um novo teste, agora submentendo uma foto na qual o rosto está escondido:
 
-   Como esperado, o modelo não conseguiu detectar o rosto pois não foi possível identificar os subatributos, como olhos e nariz, por exemplo:
+   > Como esperado, o modelo não conseguiu detectar o rosto pois não foi possível identificar os subatributos, como olhos e nariz, por exemplo:
 
    > ![alt text](readmeFiles/images/009.png)
 
@@ -204,7 +204,34 @@ O serviço de legendas gera descrições precisas e significativas de imagens, e
    
    > ![alt text](readmeFiles/images/017.png)
 
-5) 
+5) O próximo serviço que tester foi o ***Extract common tags from imagens*** que, como o próprio nome, permite extrair *tags* baseadas em milhares de objetos reconhecíveis, incluindo seres vivos, cenários e ações:
+
+   > ![alt text](readmeFiles/images/018.png)
+
+6) Este serviço permite configurar algums parâmetros, como o modelo de treinamento e o idioma de retorno das *tags*:
+
+   > ![alt text](readmeFiles/images/019.png)
+
+7) Submeti a imagem abaixo e o modelo extraiu várias *tags* comuns (todas em português), trazendo ainda, para cada uma delas:
+
+   > O **escore de confiança** é uma valor percentual que indica qual probabilidade de que o texto para o atributo detectado descreva o que realmente está na imagem
+   
+   > ![alt text](readmeFiles/images/020.png)
+
+8) Por fim, testei o recurso ***Detect commom objects in imagens***, que detecta e extrai caixas delimitadoras com base em milhares de objetos reconhecíveis e seres vivos:
+
+   > ![alt text](readmeFiles/images/021.png)
+
+9) Este serviço também permite escolher o modelo de treinamento, porém não deixa escolher o idioma de retorno:
+
+   > ![alt text](readmeFiles/images/022.png)
+
+10) Nesta imagem enviada, de uma sala de estar, o modelo consegui identificar alguns objetos, como sofás, mesas e cadeiras, por exemplo:
+
+   > ***Observação***: Existe um o controle deslizante, chamado ***Threshold value*** (Limite de Probabilidade). Este é o nível de confiança que uma previsão precisa ter para ser considerada correta (para fins de cálculo de precisão e recall).
+   
+   > ![alt text](readmeFiles/images/023.png)
+    
 
 <br>
 
@@ -219,26 +246,3 @@ Estes serviços podem ser utilizados para melhorar a acessibilidade, realizar an
 ---
 
 ## Certificados / Certificações Associados ao Projeto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![alt text](readmeFiles/images/018.png)
-![alt text](readmeFiles/images/019.png)
-![alt text](readmeFiles/images/020.png)
-![alt text](readmeFiles/images/021.png)
-![alt text](readmeFiles/images/022.png)
-![alt text](readmeFiles/images/023.png)
