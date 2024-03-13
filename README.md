@@ -259,3 +259,5 @@ Estes serviços podem ser utilizados para melhorar a acessibilidade, realizar an
 ![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/conceitos-de-visao-computacional.png)
 
 ![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/reconhecimento-facial-e-transformacao-de-imagens-em-dados-no-azure-ml.jpg)
+
+![](https://github.com/rodolfoom1982/meus-certificados/blob/main/dio-bootcamp-ai-900-azure-ai-fundamentals/microsoft-azure-ai-fundamentals.png)
